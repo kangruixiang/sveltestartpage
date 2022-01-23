@@ -1,0 +1,51 @@
+
+      {
+        name: "Personal",
+        sites: [
+          { name: "Calendar", url: "https://www.google.com/calendar/" },
+          { name: "Todoist", url: "https://beta.todoist.com/app/" },
+          { name: "Drafts", url: "https://draftin.com/documents" },
+          { name: "Drive", url: "https://drive.google.com" },
+          {
+            name: "Random Evernote",
+            url: "https://evernote-random.glitch.me/",
+          },
+          { name: "Notion", url: "https://www.notion.so" },
+        ],
+      },
+      {
+        name: "Social",
+        sites: [
+          { name: "Reddit", url: "http://old.reddit.com" },
+          { name: "Youtube", url: "https://youtube.com" },
+          { name: "Messages", url: "https://messages.google.com/web/" },
+          { name: "Telegram", url: "https://web.telegram.org/" },
+          { name: "Gmail", url: "https://gmail.com" },
+          { name: "Inoreader", url: "https://www.inoreader.com/" },
+        ],
+      },
+      {
+        name: "Finance",
+        sites: [
+          { name: "Dicover", url: "https://card.discover.com" },
+          {
+            name: "Truliant",
+            url:
+              "https://www.truliantfcuonline.org/tob/live/usp-core/app/login/consumer",
+          },
+          { name: "Ally", url: "https://secure.ally.com/" },
+          { name: "Vanguard", url: "https://personal.vanguard.com/us/MyHome" },
+          {
+            name: "Fedloan",
+            url:
+              "https://accountaccess.myfedloan.org/accountAccess/index.cfm?event=common.home",
+          },
+          {
+            name: "YNAB",
+            url: "https://app.youneedabudget.com/",
+          },
+        ],
+      },
+    ],
+  }),
+};
