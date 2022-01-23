@@ -126,8 +126,8 @@ const sites = {
 }
 </style>
 
-<main class="text-center p-4 mx-auto h-full  flex justify-center flex-row">
-	<container class="flex justify-center flex-row min-w-[80%]">
+<main class="h-full flex justify-center">
+	<container class="container flex justify-center min-w-[80%]">
 		<Canvas {...sites} />
 	</container>
   
