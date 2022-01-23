@@ -1,6 +1,5 @@
 <script>
 	export let site;
-	console.log(site)
 </script>
 
 <style>
