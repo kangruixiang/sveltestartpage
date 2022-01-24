@@ -17,7 +17,7 @@
 			class="card-title">
 			Wake
 		</div>
-		<Card site = {school}/>
+		<Card site = {school} color = {colorHighlight}/>
 	</div>
 	<div class="grow py-2 rounded-md">
 		<div class="card-title">

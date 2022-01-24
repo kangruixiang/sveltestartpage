@@ -1,7 +1,7 @@
 <script>
 import Canvas from './components/Canvas.svelte';
 
-let hue = Math.floor(Math.random() * 100)
+let hue = Math.floor(Math.random() * 360)
 let saturation = Math.floor(Math.random() * 100)
 let value = Math.floor(Math.random() * (30-5) + 5);
 let hue2 = hue
