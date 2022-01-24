@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   content: ["./docs/index.html", "./src/**/*.svelte"],
   theme: {
     fontFamily: {

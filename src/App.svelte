@@ -1,5 +1,23 @@
 <script>
 import Canvas from './components/Canvas.svelte';
+
+let hue = Math.floor(Math.random() * 100)
+    let saturation = Math.floor(Math.random() * 100)
+    let value = Math.floor(Math.random() * (30-5) + 5);
+    function hslToHex(h, s, l) {
+        l /= 100;
+        const a = s * Math.min(l, 1 - l) / 100;
+        const f = n => {
+        const k = (n + h / 30) % 12;
+        const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+        return Math.round(255 * color).toString(16).padStart(2, '0');   // convert to Hex and prefix "0" if needed
+  };
+        return `#${f(0)}${f(8)}${f(4)}`;
+}
+console.log(hue, saturation, value)
+ let randomColor = hslToHex(hue, saturation, value)
+ console.log(randomColor)
+
 const sites = {
   "school": 
     [{
@@ -98,16 +116,17 @@ const sites = {
     },
   ],}
 
+
+
+
+
+
 </script>
 
 <style lang="postcss" global>
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
-  :global(body) {
-		height: 100vh;
-		background-color: #131313;
-	}
   @font-face {
     font-family: 'Concourse';
     src: url('fonts/concourse_3_regular.woff2') format('woff2');
@@ -126,7 +145,7 @@ const sites = {
 }
 </style>
 
-<main class="h-full flex justify-center">
+<main class="flex justify-center h-screen" style="background-color: {randomColor}">
 	<container class="container flex justify-center min-w-[80%]">
 		<Canvas {...sites} />
 	</container>
