@@ -8,11 +8,11 @@
 
 {#each site as site}
 	<div class="flex flex-row">
-		<div
+		<a
 			class="text-lg py-2 px-2 w-full mx-2 cursor-pointer text-stone-300 hover:bg-stone-900 hover:rounded-lg hover:text-stone-100"
-			onclick="location.href='{site.url}'
-			">
+			href='{site.url}'
+			>
 			{site.name}
-		</div>
+		</a>
 	</div>
 {/each}
