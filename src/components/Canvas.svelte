@@ -4,6 +4,7 @@
 	export let personal;
 	export let social;
 	export let finance;
+	export let colorHighlight
 </script>
 
 <style>
