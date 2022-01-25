@@ -144,10 +144,11 @@ const sites = {
 		@apply py-2 my-2 mx-2 px-2 text-2xl border-solid border-stone-200 border-b-2
 			font-bold text-stone-200;
 	}
+
 }
 </style>
 
-<main class="flex justify-center h-screen" style="background-color: {randomColor}">
+<main class="flex justify-center min-h-screen" style="background-color: {randomColor}">
 	<container class="container flex justify-center min-w-[80%]">
 		<Canvas {...sites} />
 	</container>
