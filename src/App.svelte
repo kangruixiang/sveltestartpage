@@ -1,26 +1,26 @@
 <script>
 import Canvas from './components/Canvas.svelte';
 
-let hue = Math.floor(Math.random() * 360)
-let saturation = Math.floor(Math.random() * 100)
-let value = Math.floor(Math.random() * (30-5) + 5);
-let hue2 = hue
-let saturation2 = saturation - 10
-let value2 = value + 10
+const hue = Math.floor(Math.random() * 360)
+const saturation = Math.floor(Math.random() * 100)
+const value = Math.floor(Math.random() * (30-5) + 5);
+const hue2 = hue
+const saturation2 = saturation - 10
+const value2 = value + 10
 function hslToHex(h, s, l) {
     l /= 100;
-    const a = s * Math.min(l, 1 - l) / 100;
-    const f = n => {
-    const k = (n + h / 30) % 12;
-    const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+    let a = s * Math.min(l, 1 - l) / 100;
+    let f = n => {
+    let k = (n + h / 30) % 12;
+    let color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
     return Math.round(255 * color).toString(16).padStart(2, '0');   // convert to Hex and prefix "0" if needed
 };
     return `#${f(0)}${f(8)}${f(4)}`;
 }
 console.log(hue, saturation, value)
- let randomColor = hslToHex(hue, saturation, value)
- let randomColorHighlight = hslToHex(hue2, saturation2, value2)
- console.log(randomColor, randomColorHighlight)
+const randomColor = hslToHex(hue, saturation, value)
+const randomColorHighlight = hslToHex(hue2, saturation2, value2)
+console.log(randomColor, randomColorHighlight)
 
 const sites = {
   "school": 
@@ -65,6 +65,10 @@ const sites = {
     {
       "name": "Random Evernote",
       "url": "https://evernote-random.glitch.me/"
+    },
+    {
+      "name": "Wiki",
+      "url": "https://kangruixiang.github.io/my-wiki/#/"
     },
   ],
   "social": 
