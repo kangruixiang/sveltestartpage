@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "media",
   mode: "jit",
   content: ["./docs/index.html", "./src/**/*.svelte"],
   theme: {

@@ -7,6 +7,7 @@ const value = Math.floor(Math.random() * (30-5) + 5);
 const hue2 = hue
 const saturation2 = saturation - 10
 const value2 = value + 10
+const valueDark = Math.floor(Math.random() * (100-30) + 30);
 function hslToHex(h, s, l) {
     l /= 100;
     let a = s * Math.min(l, 1 - l) / 100;
@@ -19,6 +20,7 @@ function hslToHex(h, s, l) {
 }
 console.log(hue, saturation, value)
 const randomColor = hslToHex(hue, saturation, value)
+const randomColorDark = hslToHex(hue, saturation, valueDark)
 const randomColorHighlight = hslToHex(hue2, saturation2, value2)
 console.log(randomColor, randomColorHighlight)
 
