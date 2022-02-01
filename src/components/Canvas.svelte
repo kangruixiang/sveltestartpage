@@ -4,34 +4,35 @@
 	export let personal;
 	export let social;
 	export let finance;
-	export let colorHighlight
+	export let colorHighlight;
+	export let randomColor
 </script>
 
 <style>
 
 </style>
 
-<div class="w-full flex flex-col md:flex-row my-auto text-center gap-x-14">
-	<div class="grow py-2 rounded-md">
+<div class="flex flex-col w-full my-auto text-center md:flex-row gap-x-14">
+	<div class="py-2 rounded-md grow">
 		<div
 			class="card-title">
 			Wake
 		</div>
-		<Card site = {school} color = {colorHighlight}/>
+		<Card site = {school} randomColor = {randomColor}/>
 	</div>
-	<div class="grow py-2 rounded-md">
+	<div class="py-2 rounded-md grow">
 		<div class="card-title">
 			Personal
 		</div>
 		<Card site = {personal}	/>
 	</div>
-	<div class="grow py-2 rounded-md">
+	<div class="py-2 rounded-md grow">
 		<div class="card-title">
 			Social
 		</div>
 		<Card site = {social}	/>
 	</div>
-	<div class="grow py-2 rounded-md">
+	<div class="py-2 rounded-md grow">
 		<div class="card-title">
 			Finance
 		</div>

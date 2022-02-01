@@ -70,7 +70,7 @@ const sites = {
     },
     {
       "name": "Wiki",
-      "url": "https://kangruixiang.github.io/my-wiki/#/"
+      "url": "https://kangruixiang.github.io/wiki/"
     },
   ],
   "social": 
@@ -156,7 +156,7 @@ const sites = {
 
 <main class="flex justify-center min-h-screen" style="background-color: {randomColor}">
 	<container class="container flex justify-center min-w-[80%]">
-		<Canvas {...sites} />
+		<Canvas {...sites} randomColor = {randomColor} />
 	</container>
   
 </main>
