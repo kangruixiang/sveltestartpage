@@ -128,7 +128,7 @@
       },
       {
         name: "Vanguard",
-        url: "https://personal.vanguard.com/us/MyHome",
+        url: "https://investor.vanguard.com/my-account/log-on",
       },
       {
         name: "Fedloan",
@@ -137,6 +137,10 @@
       {
         name: "YNAB",
         url: "https://app.youneedabudget.com/",
+      },
+      {
+        name: "FNB",
+        url: "https://banking.fnb-onlinebankingcenter.com/FNBPA/Login.aspx#",
       },
     ],
   };
