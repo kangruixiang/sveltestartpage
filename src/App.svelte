@@ -72,7 +72,7 @@
     personal: [
       {
         name: "Todoist",
-        url: "https://beta.todoist.com/app/",
+        url: "https://todoist.com/app/",
       },
       {
         name: "Colors",
