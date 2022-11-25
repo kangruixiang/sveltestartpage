@@ -88,7 +88,7 @@
       },
       {
         name: "Wiki",
-        url: "https://kangruixiang.github.io/wiki/",
+        url: "https://wiki.krxiang.com/",
       },
     ],
     social: [
