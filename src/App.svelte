@@ -57,10 +57,6 @@
         url: "https://portal2.wakehealth.edu",
       },
       {
-        name: "Intranet",
-        url: "https://intranet.wakehealth.edu/index.htm",
-      },
-      {
         name: "Outlook",
         url: "https://outlook.office365.com",
       },
@@ -141,6 +137,10 @@
       {
         name: "FNB",
         url: "https://banking.fnb-onlinebankingcenter.com/FNBPA/Login.aspx#",
+      },
+      {
+        name: "Water Bill",
+        url: "https://waterbills.cityofws.org/webinquiry/JSP/login.jsp",
       },
     ],
   };
