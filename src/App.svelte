@@ -75,8 +75,8 @@
         url: "https://color.krxiang.com",
       },
       {
-        name: "Drive",
-        url: "https://drive.google.com",
+        name: "Homarr",
+        url: "http://100.92.18.77:7575",
       },
       {
         name: "Random Evernote",
