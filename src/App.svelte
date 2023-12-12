@@ -53,8 +53,8 @@
         url: "https://wfbmc.medhub.com",
       },
       {
-        name: "Citrix",
-        url: "https://portal2.wakehealth.edu",
+        name: "Portal",
+        url: "https://wakeportal.wakehealth.edu",
       },
       {
         name: "Outlook",
