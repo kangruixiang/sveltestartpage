@@ -86,6 +86,10 @@
         name: "Wiki",
         url: "https://wiki.krxiang.com/",
       },
+      {
+        name: "Moodist",
+        url: "https://moodist.app/",
+      },
     ],
     social: [
       {
