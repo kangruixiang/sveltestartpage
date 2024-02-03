@@ -142,6 +142,10 @@
         name: "Water Bill",
         url: "https://waterbills.cityofws.org/webinquiry/JSP/login.jsp",
       },
+      {
+        name: "Capstone",
+        url: "https://capstoneam.cincwebaxis.com/",
+      },
     ],
   };
 </script>
