@@ -131,8 +131,8 @@
         url: "https://investor.vanguard.com/my-account/log-on",
       },
       {
-        name: "YNAB",
-        url: "https://app.youneedabudget.com/",
+        name: "Actual",
+        url: "https://actual.kangruixiang.synology.me/",
       },
       {
         name: "FNB",
