@@ -144,7 +144,7 @@
       },
       {
         name: "Capstone",
-        url: "https://capstoneam.cincwebaxis.com/",
+        url: "https://capstonetriad.cincwebaxis.com/ ",
       },
     ],
   };
